@@ -1,0 +1,40 @@
+
+# Python bytecode and cache
+__pycache__/
+*.py[cod]
+
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Python test and coverage output
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# AWS credentials and configuration
+.aws/
+*.pem
+*.key
+
+# SSH private keys
+id_rsa
+id_ed25519
+id_ed25519_*
+
+# IDE and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Temporary and log files
+*.log
+*.tmp
+*.swp
